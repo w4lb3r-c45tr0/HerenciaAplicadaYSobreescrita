@@ -1,5 +1,15 @@
 package herencia.EmpleadoyGerente;
+/*
+Se creó la clase Empleado con atributos nombre y salario.
 
+La clase Gerente hereda de Empleado y agrega un bono adicional.
+
+Se sobrescribió el método calcularSalario() en la clase Gerente
+para sumar el bono al salario base.
+
+Se reutilizó el método mostrarInfo() de la clase padre,
+pero con el nuevo cálculo del salario.
+*/
 public class Empleado {
 
     protected String nombre;

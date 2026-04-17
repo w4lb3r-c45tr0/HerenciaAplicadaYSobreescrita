@@ -1,5 +1,20 @@
 package herencia.persona;
 
+
+//Se aplicó herencia creando la clase Persona como clase base,
+//con atributos nombre y edad.
+
+//Se crearon dos clases hijas:
+//- Estudiante, que agrega el atributo carnet.
+//- Docente, que agrega el atributo especialidad.
+
+//Se utilizó super() para inicializar atributos heredados.
+
+//Se sobrescribió el método mostrar() en las clases hijas
+//usando @Override y super.mostrar() para reutilizar código.
+
+
+
 public class Persona {
 	
 	private String nombre;
